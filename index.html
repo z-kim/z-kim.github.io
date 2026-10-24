@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>김지효 | Portfolio</title>
+
+  <style>
+    html, body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+
+    .topbar {
+      height: 54px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 24px;
+      box-sizing: border-box;
+      background: white;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .title {
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .download {
+      text-decoration: none;
+      padding: 9px 15px;
+      border: 1px solid #333;
+      border-radius: 6px;
+      color: #222;
+      font-size: 14px;
+      font-weight: 600;
+      background: white;
+    }
+
+    .download:hover {
+      background: #f2f2f2;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: calc(100% - 54px);
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="topbar">
+    <div class="title">Kim Zeehyo · Portfolio</div>
+
+    <a class="download"
+       href="portfolio.pdf"
+       download="Kim_Zeehyo_Portfolio.pdf">
+      PDF 다운로드
+    </a>
+  </div>
+
+  <iframe src="portfolio.pdf"></iframe>
+
+</body>
+</html>
